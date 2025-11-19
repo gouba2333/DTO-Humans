@@ -84,7 +84,7 @@ sudo apt-get update && sudo apt-get install libosmesa6-dev libglu1-mesa
 Please download the required models and data and place them in the specified directory structure.
 
 ### SMPL Models
-Download the SMPL models and place them in `data/models/smpl/`. Partially Available at [smpl models](https://drive.google.com/drive/folders/1C8fZNiiZfC1oMUZq7xNilQcGv4LJf5M8?usp=drive_link). You need to register on the [SMPL website](https://smpl.is.tue.mpg.de/) to get other part of them.
+Download the SMPL models and place them in `data/models/smpl/`. Partially Available at [this link](https://drive.google.com/drive/folders/1C8fZNiiZfC1oMUZq7xNilQcGv4LJf5M8?usp=drive_link). You need to register on the [SMPL website](https://smpl.is.tue.mpg.de/) to get other part of them.
 
 ```
 data/
@@ -129,7 +129,7 @@ To run the DTO framework on a sample image:
 ### Test on RelativeHuman Dataset
 
 1.  **Data Preparation**
-    Place the RelativeHuman dataset as follows:
+    Download RelativeHuman dataset from [Relative_Human](https://github.com/Arthur151/Relative_Human) and place as follows:
     ```
     data/
     └── RelativeHuman/
@@ -207,6 +207,7 @@ If you find our work useful, please consider citing our paper:
 ## 🙏 Acknowledgements
 
 This project builds upon several amazing open-source projects and datasets. We would like to thank the authors of:
+*   [RelativeHuman](https://github.com/Arthur151/Relative_Human)
 *   [4D-Humans](https://github.com/shubham-goel/4D-Humans?tab=readme-ov-file)
 *   [CameraHMR](https://camerahmr.is.tue.mpg.de/)
 *   [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2)
