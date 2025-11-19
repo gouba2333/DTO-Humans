@@ -1,0 +1,13 @@
+opencv-python
+smplx
+pytorch_lightning
+scikit-image
+trimesh
+timm
+einops
+pyrender
+loguru
+scikit-learn
+chumpy
+ultralytics
+transformers
