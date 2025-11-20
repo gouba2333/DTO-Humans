@@ -191,6 +191,11 @@ To visualize a few samples from our generated DTO-Humans dataset (e.g., 20 sampl
 python visualize_dto.py --dataset coco --vis_num 20
 ```
 
+## 📜 License
+
+The code and the DTO-Humans dataset are released under the [**Creative Commons Attribution-NonCommercial 4.0 International License**](https://creativecommons.org/licenses/by-nc/4.0/). This means they are available for **non-commercial academic research purposes only**. Please see the [LICENSE](LICENSE) file for the full license text.
+
+
 ## 📜 Citation
 If you find our work useful, please consider citing our paper:
 
