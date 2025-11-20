@@ -145,7 +145,7 @@ To run the DTO framework on a sample image:
     python dto_framework.py --dataset rh --vis_step 50
     ```
 
-## 🌐 Visualizing & Reproducing DTO-Humans
+## 🌐 Reproducing & Visualizing DTO-Humans
 
 ### Data Preparation for DTO-Humans
 First, download the image datasets and the corresponding `.npz` annotation files from the [CameraHMR project page](https://camerahmr.is.tue.mpg.de/). Organize them as shown below. The `*_CHMR_SMPL_OPT.npz` files are our DTO-Humans annotations.
