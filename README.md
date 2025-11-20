@@ -4,7 +4,7 @@
 [![Dataset](https://img.shields.io/badge/DTO--Humans-Download-blue.svg)](https://drive.google.com/drive/folders/1ddc43P6iYIctAvmuravIxbxZm3F2uB41?usp=drive_link)
 [![Code](https://img.shields.io/badge/MA--HMR%20Code-GitHub-green)](https://github.com/gouba2333/MA-HMR)
 
-This repository contains the official implementation of DTO framework and DTO-Humans dataset for the paper "Towards Metric-Aware Multi-Person Mesh Recovery by Jointly Optimizing Human Crowd in Camera Space".
+This repository contains the official implementation of DTO framework and DTO-Humans dataset for the paper *Towards Metric-Aware Multi-Person Mesh Recovery by Jointly Optimizing Human Crowd in Camera Space*.
 
 ![Teaser Image](teaser/teaser.png)
 
