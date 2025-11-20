@@ -174,7 +174,7 @@ data/
 ```
 
 ### Reproducing DTO-Humans Annotations
-Run the DTO framework for each dataset to generate our optimized annotations. The results will be saved as `*_opt.npz` in the respective dataset directories. Simple reorgnizing leads to `*_CHMR_SMPL_OPT.npz`
+Run the DTO framework for each dataset to generate our optimized annotations. The results will be saved as `*_opt.npz` in the respective dataset directories. Simple reorgnizing (following [this script](https://github.com/gouba2333/MA-HMR/blob/main/datasets/preprocess/prepare_dto.py)) leads to our released version `*_CHMR_SMPL_OPT.npz`
 
 ```bash
 python dto_framework.py --dataset insta1 --save_all_annots False
