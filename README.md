@@ -63,11 +63,7 @@ sudo apt-get update && sudo apt-get install libosmesa6-dev libglu1-mesa
 ### 🔧 Troubleshooting & Common Issues
 
 *   **`glGetError` in rendering mesh:**
-*   Install Mesa for headless rendering
-*   ```bash
-    sudo apt-get install libosmesa6-dev libglu1-mesa
-    ```
-*   Also can be caused by a `libstdc++` conflict within the Conda environment. You can fix it by linking to the system's library.
+*   This can be caused by a `libstdc++` conflict within the Conda environment. You can fix it by linking to the system's library.
     ```bash
     # Replace ${Your_Conda_Environment} with the path to your conda env, e.g., ~/miniconda3/envs/dto
     rm ${Your_Conda_Environment}/lib/libstdc*
